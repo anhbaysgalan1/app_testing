@@ -11,6 +11,6 @@ for i in range(int(15)):
 
 
 dataframe = pd.DataFrame(
-    np.random.randn(range(15)),
+    np.random.randn(10, 20),
     columns=('col %d' % i for i in range(20)))
 st.table(dataframe)
