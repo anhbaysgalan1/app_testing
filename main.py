@@ -3,7 +3,7 @@ import numpy as np
 import streamlit as st
 
 
-test = input()
+# test = input()
 
 
 for i in range(int(15)):
